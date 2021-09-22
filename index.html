@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js" defer=""></script>
-    <title>TinyGrave</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Audiowide&family=DM+Sans&family=Exo+2:wght@100&family=Major+Mono+Display&family=Michroma&family=Press+Start+2P&family=Quicksand:wght@300&family=Thasadith&family=Ubuntu+Mono&display=swap"
+        rel="stylesheet">
+    <script src="app.js" defer></script>
+    <title>TINY</title>
 </head>
+
 <body>
     <div class="diagonal-box">
         <div class="container">
@@ -18,21 +24,35 @@
                 <a href="">note</a>
                 <a href="">game</a>
             </header>
+
             <aside class="left">
-                <button id="button-left"> < </button>
+                <button id='button-left'>
+                    < </button>
             </aside>
+
             <main>
-                <span>
-                    "tiny "
-                    <span id="app-name" class="app-name">app</span>
-                </span>
-                <span class="release-date">coming soon</span>
+                <div id="test"></div>
+                <span>tiny <span id="app-name" class="app-name"></span></span>
+                <span class="release-date">coming soon</coming></span>
             </main>
+
             <aside class="right">
-                <button id="button-right"> > </button>
+                <button id='button-right'>></button>
             </aside>
-            <footer></footer>
         </div>
+        <button id="toggle-rent-button">
+            Rent
+        </button>
+        <button id="toggle-buy-button">
+            Buy
+        </button>
+        <div class="changing-component" id="rent-or-buy">
+            Hello World
+        </div>
+        <footer>
+
+        </footer>
     </div>
 </body>
+
 </html>
