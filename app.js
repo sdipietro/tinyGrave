@@ -37,27 +37,27 @@ const rotateLeft = () => {
     setDisplay();
 }
 
-const changeToRent = () => {
-    rentOrBuyComponent.innerHTML =
-    '<div class="rent-component">' +
-        '<h1>Rent</h1>' +
-    '</div>';
-}
+// const changeToRent = () => {
+//     rentOrBuyComponent.innerHTML =
+//     '<div class="rent-component">' +
+//         '<h1>Rent</h1>' +
+//     '</div>';
+// }
 
-const changeToBuy = () => {
-    rentOrBuyComponent.innerHTML =
-    '<div class="buy-component">' +
-        '<h1>Buy</h1>' +
-    '</div>';
-}
+// const changeToBuy = () => {
+//     rentOrBuyComponent.innerHTML =
+//     '<div class="buy-component">' +
+//         '<h1>Buy</h1>' +
+//     '</div>';
+// }
 
 document.getElementById('button-right').onclick = rotateRight;
 document.getElementById('button-left').onclick = rotateLeft;
-document.getElementById('toggle-rent-button').onclick = changeToRent;
-document.getElementById('toggle-buy-button').onclick = changeToBuy;
+// document.getElementById('toggle-rent-button').onclick = changeToRent;
+// document.getElementById('toggle-buy-button').onclick = changeToBuy;
 
 document.addEventListener('DOMContentLoaded', () => {
     setDisplay();
 })
 
-let rentOrBuyComponent = document.getElementById('rent-or-buy')
+// let rentOrBuyComponent = document.getElementById('rent-or-buy')
