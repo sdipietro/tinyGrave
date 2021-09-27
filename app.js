@@ -7,6 +7,7 @@ let apps = [
     'grave'
 ]
 
+
 let displayedApp = document.getElementById('app-name')
 
 const setDisplay = () => {
